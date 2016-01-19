@@ -1,13 +1,11 @@
-import json
+import re
 
+def trumplemortify(status, trumplemap):
 
-class Trumplemortifier:
+    mortified = status
 
-
-    def __init__(self):
-        with open("trumplemapping.json") as jsonfile:
-           self.terms_file = json.load(jsonfile)
-
-    def trumplemortify(self, status):
-        return status
+    for (regEx, trumpled) in trumplemap:
+        mortified = re.sub(regEx, trumpled, mortified, flags=re.IGNORECASE)
+        
+    return mortified
 
