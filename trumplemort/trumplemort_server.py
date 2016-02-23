@@ -11,8 +11,8 @@ import secrets
 
 class TrumplmortListener(StreamListener):
 
-#    trump_id = "25073877"
-    trump_id = 1449793027
+    trump_id = 25073877
+#    trump_id = 1449793027
 
     def __init__(self):
         super().__init__()
