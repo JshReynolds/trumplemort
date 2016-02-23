@@ -2,7 +2,7 @@
 terms = (
     ("(Barak )?Obama", "Dumbledore"),
     ("(Donald )?Trump", "Tmort"),
-    ("(Hillary )?Clinton", "Chick Wizard"),
+    ("(Hillary )?Clinton", "That Chick Wizard"),
     ("(Ted )?Cruz", "Snape"),
     ("(Marco )?Rubio", "The Kid"),
     ("America", "Wizards"),
@@ -10,5 +10,6 @@ terms = (
     ("Dems", "Mudbloods"),
     ("Democrats", "Mudbloods"),
     ("Immigrants", "Mudbloods"),
-    ("VoteTrump", "VoteTmort")
+    ("VoteTrump", "VoteTmort"),
+    ("Hillary", "That Chick Wizard")
     )
